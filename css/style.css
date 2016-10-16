@@ -311,6 +311,12 @@
 	position: relative;
 	color: #000;
   }
+  
+  #referencias{
+  font-size:10px;
+  font-style:italic;
+  line-height:15px;
+  }
 /*ETIQUETAS*/
 body{
 
@@ -327,7 +333,7 @@ h1{
 }
 h2{
 	font-family: Arial, Helvetica, sans-serif;
-	color: #1C2123;
+	color: #006680;
 	margin-left: 10px;
 	text-align: center;
 	border-top: #006680;
@@ -411,13 +417,15 @@ footer{
 	text-align: left;
 }
 p{
-
 	font-size: 15px;
 	font-weight: bolder;
 	line-height: 24px;
 	padding: 10px;
 	text-align: justify;
+	color:#333333;
 }
+
+
 /*CLASES*/
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
@@ -440,8 +448,4 @@ p{
 }
 
 /*SEUDO CLASES*/
-p {
-	font-size: 12px;
-	font-weight: normal;
-	color: #333;
-}
+
