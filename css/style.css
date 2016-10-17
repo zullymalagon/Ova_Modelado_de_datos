@@ -21,6 +21,10 @@ border:1px solid;
 padding:10px 12px;
 }
 
+.nav li a:hover {
+	background: #0fbfc6;
+}
+
 #apDiv1 {
 	position: absolute;
 	width: 1000px;
