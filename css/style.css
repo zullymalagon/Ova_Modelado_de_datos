@@ -1,6 +1,25 @@
 /*font-family: 'Shadows Into Light', cursive;
  font-family: 'Indie Flower', cursive;
 */
+* {
+font-family:sans-serif;
+list-style:none;
+text-decoration:none;
+margin:0;
+padding:0;
+}
+ 
+.nav > li {
+float:left;
+}
+ 
+.nav li a {
+background:#0c9ba0;
+color:#FFF;
+display:block;
+border:1px solid;
+padding:10px 12px;
+}
 
 #apDiv1 {
 	position: absolute;
