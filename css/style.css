@@ -5,19 +5,34 @@
 .nav > li {
   float:left;
 }
-
- 
-.nav li a {
-background:#0c9ba0;
-color:#FFF;
-display:block;
-border:1px solid;
-padding:10px 12px;
+.nav li a
+{ 
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
 }
- 
+ 
+.nav li ul 
+{
+
+
+    display: none;
+    position: absolute;
+    min-width:140px;
+
+}
+
+.nav li:hover > ul {
+
+    display:block;
+}
+
 .nav li a:hover {
 background:#0fbfc6;
 }
+
+ 
+
 
 #apDiv1 {
 	position: absolute;
