@@ -2,38 +2,6 @@
  font-family: 'Indie Flower', cursive;
 */
 
-.nav > li {
-  float:left;
-}
-.nav li a
-{ 
-	text-decoration: none;
-	padding: 10px 15px;
-	display: block;
-}
- 
-.nav li ul 
-{
-
-
-    display: none;
-    position: absolute;
-    min-width:140px;
-
-}
-
-.nav li:hover > ul {
-
-    display:block;
-}
-
-.nav li a:hover {
-background:#0fbfc6;
-}
-
- 
-
-
 #apDiv1 {
 	position: absolute;
 	width: 1000px;
@@ -41,6 +9,7 @@ background:#0fbfc6;
 	z-index: 1;
 	border-radius: 10px 10px 0px 0px;
 }
+
 #apDiv2 {
 	position: absolute;
 	width: 518px;
