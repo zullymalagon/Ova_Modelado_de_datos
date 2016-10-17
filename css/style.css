@@ -19,6 +19,15 @@ padding:10px 12px;
 	background: #0fbfc6;
 }
 
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+.nav li:hover > ul {
+display:block;
+}
+
 #apDiv1 {
 	position: absolute;
 	width: 1000px;
