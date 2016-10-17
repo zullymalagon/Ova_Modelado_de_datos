@@ -1,41 +1,7 @@
 /*font-family: 'Shadows Into Light', cursive;
  font-family: 'Indie Flower', cursive;
 */
-.nav li a
-{ 
-	text-decoration: none;
-	padding: 10px 15px;
-	display: block;
-}
 
-.nav  li a:hover
-{
-	background-color: #434343;
-}
-
-
-
-.nav > li 
-{
-
-   float:left;
-}
- 
-.nav li ul 
-{
-
-
-    display: none;
-    position: absolute;
-    min-width:140px;
-
-}
-
-.nav li:hover > ul 
-{
-
-    display: block;
-}
 
 
 #apDiv1 {
