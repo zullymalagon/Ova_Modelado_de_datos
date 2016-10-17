@@ -1,13 +1,7 @@
 /*font-family: 'Shadows Into Light', cursive;
  font-family: 'Indie Flower', cursive;
 */
-* {
-font-family:sans-serif;
-list-style:none;
-text-decoration:none;
-margin:1;
-padding:1;
-}
+
  
 .nav > li {
 float:left;
