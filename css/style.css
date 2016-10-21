@@ -353,6 +353,30 @@ form {
 	margin-right: 50px;
   }
   
+  #apDiv31 {
+  	float:left;
+	margin: 20px;
+	margin-top:50px;
+	width: 310px;
+	border-radius: 10px 40px ;
+	padding-top: 10px;
+	box-shadow: inset -10px -10px 40px #006680;
+  }
+  
+   #apDiv31 p{
+   text-align:center;
+   text-shadow: 1px 1px 5px #808080;
+  }
+  
+   #apDiv31 span{
+   text-shadow:none;
+   font-weight:bold;
+   color:#ff5400;
+   font-size:18px;
+   text-shadow: 0px -1px 0px #ccc;
+  }
+  
+  
 #contenidos{
 	width: 1000px;
 	height: auto;
@@ -507,6 +531,19 @@ p{
 	text-decoration: none;
 	/*text-shadow: 0 0 13px white;*/
 }
+
+.autor:hover{
+	width:180px;	
+	border-radius: 20px;
+	transition: all 0.5s ease;
+}
+
+.autor{
+	width:150px;
+	border-radius: 70px;
+	transition: all 0.5s ease;
+}
+
 
 
 /*SEUDO CLASES*/
